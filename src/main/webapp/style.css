@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Press+Start+2P&family=Quicksand:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap')
+	;
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+h1 {
+	color: #66bbff;
+	font-weight: 500;
+}
+
+.btn_1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.2em;
+	font-weight: 600;
+	border: 0 black;
+}
+
+.btn_2 {
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.caixa_1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.caixa_2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.mask {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.td_btns {
+	max-width: 81px;
+	min-width: 81px;
+}
+
+.td_campos {
+	max-width: 65px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#caixa_3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+	border-radius: 5px;
+}
+
+#tabela {
+	margin-top: 30px;
+	border-collapse: collapse;
+	width: 700px;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
